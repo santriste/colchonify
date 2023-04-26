@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  font-family: 'Poppins', sans-serif;
 }
 
 body{
@@ -58,3 +60,26 @@ body{
   height: 700px;
   width: 400px;
 }
+
+.footmenu {
+  padding-left: 0;
+  margin-top: 5rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}    
+
+.footcontact {
+  padding-left: 0;
+  margin-top: 2rem;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}    
+
+.footcontact img {
+  width: 20px;
+}
+
