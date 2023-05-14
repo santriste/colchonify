@@ -1,0 +1,23 @@
+header{
+    padding-top: 5rem;
+  }
+
+  .navbar.bg {
+    background-color: $color-primario !important;
+  }
+  
+  
+  .brand-logo {
+    max-height: 50px;
+    max-width: 100%;
+  }
+
+    /* anidacion */
+    @media (max-width: 768px) {
+        .navbar-nav {
+          flex-direction: column;
+          li {
+            padding-top: 1rem;
+          }
+        }
+      }

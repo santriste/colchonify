@@ -1,0 +1,61 @@
+/* anidacion */
+.footmenu {
+    padding-left: 0;
+    margin-top: 5rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    li a {
+      color: $color-primario;
+    }
+  }    
+  
+  .footcontact {
+    padding-left: 0;
+    margin-top: 2rem;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    img {
+      width: 20px;
+    }
+  } 
+  .copyright{
+    color: $color-primario;
+  }
+
+  .footcontact img {
+    width: 20px;
+  }
+  @media (max-width: 768px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+    }
+    .footmenu {
+      margin-top: 2rem;
+      justify-content: center;
+      gap: 1rem;
+    }
+    .footcontact {
+      margin-top: 1rem;
+      justify-content: center;
+      gap: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footmenu {
+      flex-direction: column;
+      align-items: center;
+    }
+    .footcontact {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
