@@ -7,9 +7,15 @@
   }
   
   .welcome{
-    margin-top: 1rem;
+    margin-top: 2rem;
     text-align: center;
   }
+
+  .highlight{
+    @extend .welcome;
+    background-color: black;
+  }
+  
   #carousel2 {
     margin: auto;
     display: flex;
@@ -28,4 +34,18 @@
     height: 700px;
     width: 400px;
   }
-  
+
+  .destacados{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(20px,1fr));
+    padding: 20px;
+    grid-gap: 40px;
+}
+
+
+img{
+    width: 100%;
+    display: block;
+    border-radius: 20px 20px 0 0;
+}

@@ -27,9 +27,13 @@ header {
   font-family: "Poppins", sans-serif;
 }
 
-.welcome {
-  margin-top: 1rem;
+.welcome, .highlight {
+  margin-top: 2rem;
   text-align: center;
+}
+
+.highlight {
+  background-color: black;
 }
 
 #carousel2 {
@@ -50,12 +54,32 @@ header {
   width: 400px;
 }
 
+.destacados {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
+  padding: 20px;
+  grid-gap: 40px;
+}
+
+img {
+  width: 100%;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
 .card {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
   padding: 20px;
   border-radius: 10px;
+  transition: all 1s;
+}
+
+.card:hover {
+  transform: scale(1.1) translateY(-10px);
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .card-img-top {
@@ -74,12 +98,6 @@ header {
   font-size: 18px;
   line-height: 1.5;
   margin-bottom: 10px;
-}
-
-.card-price {
-  font-size: 20px;
-  font-weight: bold;
-  color: #1DB954;
 }
 
 .info {
