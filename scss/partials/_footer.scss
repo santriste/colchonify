@@ -1,4 +1,4 @@
-/* anidacion */
+/* ------------------------------------------------anidacion-------------------------------------------- */
 .footmenu {
     padding-left: 0;
     margin-top: 5rem;
@@ -10,7 +10,7 @@
       color: $color-primario;
     }
   }    
-  
+  /* ------------------------------------------------anidacion-------------------------------------------- */
   .footcontact {
     padding-left: 0;
     margin-top: 2rem;
@@ -18,44 +18,16 @@
     display: flex;
     justify-content: center;
     gap: 1rem;
+  
     img {
       width: 20px;
     }
-  } 
+  }
+  /* ------------------------------------------------anidacion-------------------------------------------- */
+
   .copyright{
     color: $color-primario;
   }
 
-  .footcontact img {
-    width: 20px;
-  }
-  @media (max-width: 768px) {
-    .footer {
-      flex-direction: column;
-      text-align: center;
-      position: fixed;
-      bottom: 0;
-    }
-    .footmenu {
-      margin-top: 2rem;
-      justify-content: center;
-      gap: 1rem;
-    }
-    .footcontact {
-      margin-top: 1rem;
-      justify-content: center;
-      gap: 1rem;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .footmenu {
-      flex-direction: column;
-      align-items: center;
-    }
-    .footcontact {
-      flex-direction: column;
-      align-items: center;
-    }
-  }
+
   

@@ -12,12 +12,4 @@ header{
     max-width: 100%;
   }
 
-    /* anidacion */
-    @media (max-width: 768px) {
-        .navbar-nav {
-          flex-direction: column;
-          li {
-            padding-top: 1rem;
-          }
-        }
-      }
+
